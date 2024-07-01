@@ -1,4 +1,22 @@
 #!/usr/bin/python3
+
+""" Pascal's Triangle 
+        Given a non-negative integer n, generate the first n rows of Pascal's
+        triangle.
+        Returns an empty list if n <= 0
+        Example:
+        pascal_triangle(5)
+        Returns:
+        [
+                [1],
+                [1, 1],
+                [1, 2, 1],
+                [1, 3, 3, 1],
+                [1, 4, 6, 4, 1]
+        ]
+"""
+
+
 def pascal_triangle(n):
     if n <= 0:
         return []
