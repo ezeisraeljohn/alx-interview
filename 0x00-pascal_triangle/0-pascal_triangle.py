@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" Pascal's Triangle 
+""" Pascal's Triangle
         Given a non-negative integer n, generate the first n rows of Pascal's
         triangle.
         Returns an empty list if n <= 0
