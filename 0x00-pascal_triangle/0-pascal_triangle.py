@@ -18,6 +18,12 @@
 
 
 def pascal_triangle(n):
+    """Generate the first n rows of Pascal's triangle
+    Args:
+        n: non-negative integer
+    Returns:
+        List of lists of integers
+    """
     if n <= 0:
         return []
 
