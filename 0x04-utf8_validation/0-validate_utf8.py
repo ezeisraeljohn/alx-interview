@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+""" This module validates a string if it is utf or not"""
+
 
 def validUTF8(data):
     """Validates a data whether or not it is a validUTF8"""
