@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 def validUTF8(data):
+    """Validates a data whether or not it is a validUTF8"""
     num_bytes = 0
 
     # Masks to check UTF-8 encoding
