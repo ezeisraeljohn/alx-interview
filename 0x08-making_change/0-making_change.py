@@ -1,5 +1,24 @@
 #!/usr/bin/python3
+
+""" This carries out the making change problem """
+
+
 def makeChange(coins, total):
+    """This function calculates the minimum number of coins needed to make a
+    total
+
+    Args:
+        coins: list of integers
+        total: integer
+
+        Returns:
+            integer: minimum number of coins needed to make the total
+
+            Example:
+                coins = [1, 2, 5]
+                total = 11
+                makeChange(coins, total) -> 3
+    """
     if total < 0:
         return 0
     if total == 0:
