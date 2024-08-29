@@ -4,7 +4,7 @@
 
 
 def island_perimeter(grid):
-    """Function to calculate the perimeter of an island"""
+    """The function that calculates the perimeter of the island"""
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0]) if rows > 0 else 0
@@ -16,8 +16,10 @@ def island_perimeter(grid):
 
                 # Check if the cell above is also land
                 if r > 0 and grid[r - 1][c] == 1:
-                    perimeter -= 2
+                    perimeter -= 2  # Shared border with the cell above
 
                 # Check if the cell to the left is also land
                 if c > 0 and grid[r][c - 1] == 1:
-                    perimeter -= 2
+                    perimeter -= 2  # Shared border with the cell on the left
+
+    return perimeter
