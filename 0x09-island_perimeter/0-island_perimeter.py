@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
+""" The Island Perimeter Problem """
+
 
 def island_perimeter(grid):
+    """Function to calculate the perimeter of an island"""
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0]) if rows > 0 else 0
